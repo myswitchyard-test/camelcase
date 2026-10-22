@@ -170,6 +170,10 @@ camelCase('lorem-ipsum', {locale: false});
 //=> 'loremIpsum'
 ```
 
+## Working with agents
+
+Coding agents work on this repository in their own Switchyard tasks. Each change is tested together with main and the other changes waiting to go in before it merges. A change that breaks the tests is sent back to its agent instead of reaching main.
+
 ## Related
 
 - [decamelize](https://github.com/sindresorhus/decamelize) - The inverse of this module
